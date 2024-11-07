@@ -1,0 +1,27 @@
+\\confession \\
+
+#include<stdio.h>
+#include<conio.h>
+
+int main (){
+
+	int readingtime,writtingtime,totaltime;
+	printf(" enter how much minutes you spent in confession writting");
+	scanf("%d", &writtingtime);
+	printf("enter how much minutes you spent in confession reading");
+	scanf("%d",&readingtime);
+	
+    (totaltime = readingtime + writtingtime);
+    
+    if (totaltime>120) {
+	printf("Oye! 2 ghante se zyada confessions mein laga diye? Itna waqt barbaad! Sochoagar yeh 2 ghante parhai ya skill seekhne mein lagate to kidhar pohanch gaye hote! Zindagi mein kuch bara karna hai toh yeh confession waghera chor do aurapne gocus karo!");
+}
+ else if (totaltime >60){
+    printf("Abey yar, 1 se 2 ghante confessions par lagana thoda zyada ho gaya na? Dekho,thora socho kya yeh waqt waqayi mein tumhe agay leke ja raha hai? Zindagi meinaise activities ka balance rakhna seekho, warna regret ho ga baad mein!");
+}
+   else {
+   printf("Wah bhai, kamal kar rahe ho! Sirf thori der mein confessions check kar liya, aurphir apne kaam par wapas lag gaye. Isi tarah focus rakho, tum bahut agay jao ge.Parhai aur apne goals pe dhyan rakho, shabash!");
+}
+getch();
+
+}
